@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: serif;
+  font-family: sans-serif;
 }
 
 body {
@@ -12,8 +12,8 @@ body {
 }
 
 article {
-  width: 200px;
-  height: 320px;
+  width: 210mm;
+  height: 300mm;
   margin: 20px auto;
   position: relative;
 }
@@ -28,15 +28,21 @@ h1 {
   position: absolute;
   top: 10px;
   left: 25px;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
   font-size: 25px;
-  padding: 20px;
-  color: lavender;
+  padding: 50px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
 
 article {
+  background: url(top-image.png) left top;
+  background: linear-gradient (to bottom, rgba(0,0,0,2), rgba(0,0,0,0) 20%,
+  rgba(0,0,0,0) 80%, rgba(0,0,0,0.2),
+  url(top-image.png) left top, url(bottom-image.png) left bottom;
   background-color: white;
-  border-top: 1px powderblue;
-  border-bottom: 1px powderblue;
+  border-top: 1px red;
+  border-bottom: 1px red;
 }
