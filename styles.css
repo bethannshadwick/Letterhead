@@ -16,6 +16,8 @@ article {
   height: 297mm;
   margin: 20px auto;
   position: relative;
+  background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0) 20%, rgba(0,0,0,0.25)),
+url(top-image.png), url(bottom-image.png);
 }
 
 address {
@@ -38,7 +40,7 @@ h1 {
   text-shadow: 1px 1px 1px black;
 }
 
-article {
+body {
   background: url(top-image.png);
   background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0) 20%, rgba(0,0,0,0.25)),
 url(top-image.png), url(bottom-image.png);
