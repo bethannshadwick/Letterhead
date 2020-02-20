@@ -20,14 +20,14 @@ article {
 
 address {
   position: absolute;
-  bottom: 10px;
-  right: 25px;
+  bottom: 8mm;
+  right: 20mm;
 }
 
 h1 {
   position: absolute;
-  top: 10px;
-  left: 25px;
+  top: 12mm;
+  left: 20mm;
   width: 150px;
   height: 150px;
   text-align: center;
@@ -35,20 +35,17 @@ h1 {
   padding: 50px 0;
   color: white;
   text-shadow: 1px 1px 1px black;
+  background-image: url(logo.png);
+  border-radius: 70px;
+  box-shadow: 3px 3px 3px black;
 }
 
 article {
   background: url(top-image.png) no-repeat left top;
-  background: linear-gradient(to bottom, rgba(0,0,0,2), rgba(0,0,0,0) 20%,
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0) 20%,
   rgba(0,0,0,0) 80%, rgba(0,0,0,0.2),
   url(top-image.png) no-repeat left top, url(bottom-image.png) no-repeat left bottom;
   background-color: white;
-  border-top: 1px red;
-  border-bottom: 1px red;
-}
-
-h1 {
-  background-image: url(logo.png);
-  border-radius: 70px;
-  box-shadow: 3px 3px 3px black;
+  border-top: 1mm red;
+  border-bottom: 1mm red;
 }
