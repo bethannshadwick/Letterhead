@@ -13,7 +13,7 @@ body {
 
 article {
   width: 210mm;
-  height: 300mm;
+  height: 297mm;
   margin: 20px auto;
   position: relative;
 }
@@ -28,24 +28,27 @@ h1 {
   position: absolute;
   top: 12mm;
   left: 20mm;
-  width: 150px;
-  height: 150px;
+  width: 128px;
+  height: 128px;
   text-align: center;
-  font-size: 25px;
+  letter-spacing: 1px;
+  font-size: 20px;
   padding: 50px 0;
   color: white;
   text-shadow: 1px 1px 1px black;
-  background-image: url(logo.png);
-  border-radius: 70px;
-  box-shadow: 3px 3px 3px black;
 }
 
 article {
-  background: url(top-image.png) no-repeat left top;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0) 20%,
-  rgba(0,0,0,0) 80%, rgba(0,0,0,0.2),
-  url(top-image.png) no-repeat left top, url(bottom-image.png) no-repeat left bottom;
-  background-color: white;
-  border-top: 1mm red;
-  border-bottom: 1mm red;
+  background: url(top-image.png);
+  background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0) 20%, rgba(0,0,0,0.25)),
+url(top-image.png), url(bottom-image.png);
+background-repeat: no-repeat, no-repeat, no-repeat;
+background-position: top, top, bottom;
+border-top: 1mm solid red;
+border-bottom: 1mm solid red;
+}
+
+h1 {
+  background-image: url(logo.png);
+  filter: drop-shadow(1px 1px 1px black);
 }
