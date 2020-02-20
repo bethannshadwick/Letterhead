@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: serif;
+}
+
+body {
+  margin: 0;
+  background: #ccc;
+}
+
+article {
+  width: 200px;
+  height: 320px;
+  margin: 20px auto;
+  position: relative;
+}
+
+address {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+}
+
+h1 {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  width: 100px;
+  height: 100px;
+  font-size: 25px;
+  padding: 20px;
+  color: lavender;
+}
+
+article {
+  background-color: white;
+  border-top: 1px powderblue;
+  border-bottom: 1px powderblue;
+}
