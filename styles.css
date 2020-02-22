@@ -12,8 +12,8 @@ body {
 }
 
 article {
-  width: 210mm;
-  height: 297mm;
+  width: 800px;
+  height: 1200px;
   margin: 20px auto;
   position: relative;
 }
