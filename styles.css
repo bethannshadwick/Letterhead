@@ -20,16 +20,16 @@ article {
 
 address {
   position: absolute;
-  bottom: 8mm;
-  right: 20mm;
+  bottom: 30px;
+  right: 75px;
 }
 
 h1 {
   position: absolute;
-  top: 12mm;
-  left: 20mm;
-  width: 128px;
-  height: 128px;
+  top: 45px;
+  left: 75px;
+  width: 130px;
+  height: 130px;
   text-align: center;
   letter-spacing: 1px;
   font-size: 20px;
