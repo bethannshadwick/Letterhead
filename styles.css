@@ -45,8 +45,8 @@ url(top-image.png), url(bottom-image.png);
 background-repeat: no-repeat, no-repeat, no-repeat;
 background-position: top, top, bottom;
 background-color: white;
-border-top: 1mm solid red;
-border-bottom: 1mm solid red;
+border-top: 5px solid red;
+border-bottom: 5px solid red;
 }
 
 h1 {
